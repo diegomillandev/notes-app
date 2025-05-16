@@ -39,7 +39,7 @@ export const InputPassword = ({ value, setValue }: InputPasswordProps) => {
         />
       ) : (
         <EyeOff
-          className="absolute right-3 top-10 cursor-pointer text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-400"
+          className="absolute right-3 top-10 cursor-pointer text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 curspo"
           onClick={togglePasswordVisibility}
           size={20}
         />
